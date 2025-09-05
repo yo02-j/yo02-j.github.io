@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>应县木塔发展历史时间轴</title>
+  <style>
+    body {
+      font-family: "Microsoft YaHei", sans-serif;
+      background: #f5f3e9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #4a3c2a;
+      margin-bottom: 40px;
+      font-size: 2em;
+    }
+    .timeline-container {
+      position: relative;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+    .timeline-line {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: #c9a66b;
+      transform: translateX(-50%);
+    }
+    .timeline-item {
+      display: flex;
+      margin-bottom: 40px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s ease;
+    }
+    .timeline-item.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .timeline-item.left {
+      justify-content: flex-end;
+    }
+    .timeline-item.right {
+      justify-content: flex-start;
+    }
+    .timeline-content {
+      width: 45%;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      position: relative;
+      border: 1px solid #e0d6c4;
+    }
+    .timeline-content::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #d4af37;
+      border-radius: 50%;
+      top: 20px;
+    }
+    .timeline-item.left .timeline-content::before {
+      right: -52px;
+    }
+    .timeline-item.right .timeline-content::before {
+      left: -52px;
+    }
+    .timeline-year {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #8b5a2b;
+      margin-bottom: 8px;
+    }
+    .timeline-event {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+    .timeline-img {
+      width: 80px;
+      height: 80px;
+      background: #d4af37;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      margin: 10px auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>应县木塔发展历史时间轴</h1>
+
+  <div class="timeline-container">
+    <div class="timeline-line"></div>
+
+    <!-- 时间点 -->
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">辽清宁二年（1056年）</div>
+        <div class="timeline-event">敕建佛宫寺释迦塔，又称应县木塔，是中国现存最古老、最高的木结构塔式建筑，高67.31米，纯木结构无钉无铆。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">金明昌四年（1193年）</div>
+        <div class="timeline-event">佛宫寺释迦塔增修完毕，进一步完善塔体结构与寺院布局。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">金明昌六年（1195年）</div>
+        <div class="timeline-event">再次完成增修工程，标志着金代对木塔的重视与维护。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">元延祐七年（1320年）</div>
+        <div class="timeline-event">敕监造官荣禄大夫阿里伯主持重建佛宫寺释迦塔，体现元代对古建筑的延续与保护。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">明永乐四年（1406年）</div>
+        <div class="timeline-event">明成祖朱棣北征途中驻跸于此，登塔观览，题写“峻极神工”匾额，盛赞其宏伟。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">明正德十二年（1517年）</div>
+        <div class="timeline-event">寺内佛像重塑，恢复宗教功能与艺术风貌。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">明正德十三年（1518年）</div>
+        <div class="timeline-event">明武宗朱厚照为庆祝应州之捷，登塔宴请功臣，题写“天下奇观”匾，此匾至今犹存。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">明万历七年（1579年）</div>
+        <div class="timeline-event">寺僧募捐重修佛宫寺释迦塔，民间力量参与古建保护。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">明万历四十一年（1613年）</div>
+        <div class="timeline-event">“峻极神工”匾重装，但“峻、神、工”三字已佚，仅“极”字为原迹。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">清康熙六十一年（1722年）</div>
+        <div class="timeline-event">知州章弘主持重修，加强塔体结构。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">清雍正四年（1726年）</div>
+        <div class="timeline-event">知州萧纲再次重修，延续清代对古塔的维护传统。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">清乾隆三十一年（1766年）</div>
+        <div class="timeline-event">乾隆帝下旨重修，并亲题“木德参天”匾额，赞其木构之奇。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">清乾隆五十二年（1787年）</div>
+        <div class="timeline-event">再次重修，保持塔体稳定。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">清道光二十四年（1844年）</div>
+        <div class="timeline-event">知州文润主持重修，体现地方官员对文化遗产的重视。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">清同治五年（1886年）</div>
+        <div class="timeline-event">又一次重修工程，延续百年维护传统。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">民国十五年（1926年）</div>
+        <div class="timeline-event">冯玉祥军队与阎锡山军大战，木塔中弹二百余发，严重受损，但主体未倒，展现惊人抗震与结构韧性。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">民国二十二年（1933年）</div>
+        <div class="timeline-event">将各层夹泥墙改为木隔扇，改善通风与采光，但也影响了原结构稳定性。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">民国三十七年（1948年）</div>
+        <div class="timeline-event">应县解放时，国民党军队以木塔为制高点设机枪阵地，塔体被12发炮弹击中，幸未爆炸，奇迹般保存。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">1974年</div>
+        <div class="timeline-event">在塔内塑像中发现一批辽代文物，包括刻经、写经和木板套色绢画，极具历史与艺术价值。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <div class="timeline-year">2024年11月13日</div>
+        <div class="timeline-event">国家文物局局长李群指出：应县木塔保护是我国文物建筑领域最重要、最复杂、最困难的历史性任务，需科学、系统推进。</div>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <div class="timeline-year">2025年7月4日起</div>
+        <div class="timeline-event">应县木塔景区首次延长开放时间，闭园从18时延至22时，推动文旅融合与夜间经济。</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>© 2025 古建筑学习资料 | 应县木塔时间轴动画讲解</footer>
+
+  <script>
+    // 滚动时显示时间点动画
+    const items = document.querySelectorAll('.timeline-item');
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    items.forEach(item => {
+      observer.observe(item);
+    });
+  </script>
+</body>
+</html>
